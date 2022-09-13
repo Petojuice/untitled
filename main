@@ -1,0 +1,15 @@
+#créé par Peter Latinovic 404 sur le 13 septembre 2022
+#site utilisé: https://www.delftstack.com/fr/howto/python/python-count-words-in-string/
+
+#création de la variable:
+def count_word():
+    
+    # création d'un string
+    #demande la question
+    phrase = str(input('ecrivez une phrase'))
+    #le mots sont compté avec la separation
+    resulta = len(phrase.split())
+    #je montre le nombre de mots ecrits
+    print("Tu a écris " + str(resulta) + " mots dans ta phrase.")
+#la fin de la variable
+count_word()
